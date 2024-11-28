@@ -13,10 +13,10 @@ def recommend(movie):
         recommended_movies.append(movies.iloc[i[0]].movie_name)
     return recommended_movies
 
-movies_dict = pickle.load(open('C:/Users/Balu/ML Projects/Recommendation engine using GraphRAG architecture/movie_dict.pkl','rb'))
+movies_dict = pickle.load(open('movie_dict.pkl','rb'))
 movies = pd.DataFrame(movies_dict)
 
-similarity = pickle.load(open('C:/Users/Balu/ML Projects/Recommendation engine using GraphRAG architecture/similarity.pkl','rb'))
+similarity = pickle.load(open('similarity.pkl','rb'))
 
 st.title('Movie Recommender System')
 

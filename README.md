@@ -58,16 +58,16 @@ This will start the app in your browser.
 
 Movie-Recommendation-System/  
 ├── data/  
-│   ├── bollywood_dataset.csv    # Raw movie dataset  
-│   ├── preprocessed_data.csv    # Preprocessed movie dataset
-│   ├── movie_dict.pkl           # Pickled dictionary of the dataset 
+│   ├── bollywood_dataset.csv                     # Raw movie dataset  
+│   ├── preprocessed_data.csv                     # Preprocessed movie dataset
+│   ├── movie_dict.pkl                            # Pickled dictionary of the dataset 
 │   ├── movies.pkl           
-│   ├── similarity.pkl           # Pickled similarity matrix  
+│   ├── similarity.pkl                            # Pickled similarity matrix  
 ├── notebooks/
-│   ├── preprocessing.ipynb      # Code for data cleaning and feature generation
+│   ├── Bollywood_Movie_Recommendation.ipynb      # Code for data cleaning and feature generation
 ├── app/  
-│   ├── app.py                   # Streamlit application code    
-├── README.md                    # Project description and instructions  
+│   ├── app.py                                    # Streamlit application code    
+├── README.md                                     # Project description and instructions  
 
 
 # Example Output
